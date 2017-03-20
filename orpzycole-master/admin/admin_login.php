@@ -45,8 +45,7 @@
   	  if (empty(error)) {
 
   	  	$query = mysqli_query($db, "SELECT * FROM admin 
-  	  		WHERE firstname = '".$firstname."' 
-  	  		AND password = '".$password."'") or die(mysqli_error($db));
+  	  		WHERE firstname = '".$firstname."' AND password = '".$password."'") or die(mysqli_error($db));
 
   	  	if(mysqli_num_rows($query) == 1) {
 
