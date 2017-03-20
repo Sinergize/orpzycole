@@ -42,7 +42,7 @@
   	  	$password = $_POST['password'];
   	  }
 
-  	  if (empty(error)) {
+  	  if (empty($error)) {
 
   	  	$query = mysqli_query($db, "SELECT * FROM admin 
   	  		WHERE firstname = '".$firstname."' AND password = '".$password."'") or die(mysqli_error($db));
