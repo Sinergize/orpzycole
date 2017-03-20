@@ -1,5 +1,5 @@
 <?php
     
-   $db = mysqli_connect("localhost", "root", "vagrant", "orpzycole") or die(mysqli_error());
+   $db = mysqli_connect("localhost", "root", "goodness", "orpzycole") or die(mysqli_error());
 
 ?>

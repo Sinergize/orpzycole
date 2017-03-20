@@ -1,3 +1,2 @@
-.dbconfig.php/
-.authentication.php/
-.include.php/
+db/
+!.gitignore
